@@ -3,14 +3,10 @@ package com.stackroute.userservice.controller;
 import com.stackroute.userservice.domain.User;
 import com.stackroute.userservice.exception.UserAlreadyExistException;
 import com.stackroute.userservice.exception.UserNotFoundException;
-import com.stackroute.userservice.repository.UserRepository;
 import com.stackroute.userservice.service.UserService;
-import javassist.bytecode.stackmap.BasicBlock;
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
