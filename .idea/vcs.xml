@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/muzix-service using mongoDB" vcs="Git" />
-=======
-    <mapping directory="" vcs="Git" />
->>>>>>> ae622f577c2b467367a7f4b0446011c55f86c513
   </component>
 </project>
