@@ -7,35 +7,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="userservice" />
-<<<<<<< HEAD
         <module name="spring-eureka-server" />
-=======
         <module name="zuul-gateway" />
->>>>>>> 1655c3fd91ad63d0e3d6c1f18c86bb0efbe661dc
         <module name="muzix-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="muzix-service" target="11" />
-<<<<<<< HEAD
       <module name="spring-eureka-server" target="1.8" />
       <module name="userservice" target="11" />
-=======
-      <module name="userservice" target="11" />
       <module name="zuul-gateway" target="11" />
->>>>>>> 1655c3fd91ad63d0e3d6c1f18c86bb0efbe661dc
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="muzix-service" options="-parameters" />
-<<<<<<< HEAD
       <module name="spring-eureka-server" options="-parameters" />
       <module name="userservice" options="-parameters" />
-=======
-      <module name="userservice" options="-parameters" />
       <module name="zuul-gateway" options="-parameters" />
->>>>>>> 1655c3fd91ad63d0e3d6c1f18c86bb0efbe661dc
     </option>
   </component>
 </project>
