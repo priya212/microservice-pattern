@@ -3,8 +3,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/muzix-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-eureka-server/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/muzix-service/pom.xml" />
+>>>>>>> 1655c3fd91ad63d0e3d6c1f18c86bb0efbe661dc
         <option value="$PROJECT_DIR$/user-service/pom.xml" />
       </list>
     </option>
