@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b92f6459-a276-495f-a51f-73f835fdd5b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/muzix-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/muzix-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/muzix-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muzix-service/src/main/java/com/stackroute/muzixservice/MuzixServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/muzix-service/src/main/java/com/stackroute/muzixservice/MuzixServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muzix-service/src/main/java/com/stackroute/muzixservice/controller/MuzixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/muzix-service/src/main/java/com/stackroute/muzixservice/controller/MuzixController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/muzix-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/muzix-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-eureka-server/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/zuul-gateway/target/" />
     <ignored path="$PROJECT_DIR$/muzix-service/target/" />
@@ -38,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/muzix-service/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -46,8 +32,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/muzix-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
+            <state relative-caret-position="241">
+              <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -71,15 +66,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-config-server/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zuul-gateway/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -163,11 +149,11 @@
         <option value="$PROJECT_DIR$/spring-eureka-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/muzix-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/user-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/muzix-service/pom.xml" />
         <option value="$PROJECT_DIR$/muzix-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/zuul-gateway/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/muzix-service/src/main/java/com/stackroute/muzixservice/MuzixServiceApplication.java" />
+        <option value="$PROJECT_DIR$/muzix-service/pom.xml" />
       </list>
     </option>
   </component>
@@ -211,6 +197,32 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="microservices-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzix-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzix-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzix-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muzix-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservices-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="microservices-pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="zuul-gateway" type="462c0819:PsiDirectoryNode" />
@@ -498,13 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/stackroute/userservice/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -592,20 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/muzix-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="109" column="35" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/muzix-service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -655,6 +646,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muzix-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/muzix-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="104" column="19" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
