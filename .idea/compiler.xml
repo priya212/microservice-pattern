@@ -8,14 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zuul-gateway" />
         <module name="userservice" />
+
         <module name="spring-config-server" />
         <module name="spring-eureka-server" />
+
         <module name="muzix-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="muzix-service" target="11" />
-      <module name="spring-config-server" target="11" />
+
       <module name="spring-eureka-server" target="1.8" />
       <module name="userservice" target="11" />
       <module name="zuul-gateway" target="11" />
@@ -24,7 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="muzix-service" options="-parameters" />
-      <module name="spring-config-server" options="-parameters" />
+
       <module name="spring-eureka-server" options="-parameters" />
       <module name="userservice" options="-parameters" />
       <module name="zuul-gateway" options="-parameters" />
