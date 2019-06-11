@@ -43,7 +43,7 @@ public class MuzixController {
     }
 
     //Get all tracks
-    @GetMapping("muzix")
+    @GetMapping("muzixs")
     @ApiOperation("Get all Muzix tracks")
     @ApiResponses(value = {@ApiResponse(code = 200 ,message = "ok",response = Muzix.class)})
     public ResponseEntity<?> getAllMuzixs() throws Exception
