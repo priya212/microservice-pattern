@@ -1,3 +1,6 @@
+/*
+ * This class used for handle muzixAlreadyExist exception
+ */
 package com.stackroute.muzixservice.exception;
 
 public class MuzixAlreadyExistsException extends Exception {

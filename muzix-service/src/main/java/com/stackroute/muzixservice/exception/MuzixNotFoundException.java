@@ -1,3 +1,6 @@
+/*
+ * This class used to handle muzixNotFoundException
+ */
 package com.stackroute.muzixservice.exception;
 
 public class MuzixNotFoundException extends Exception {

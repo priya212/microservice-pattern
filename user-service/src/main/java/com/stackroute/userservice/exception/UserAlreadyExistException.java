@@ -1,3 +1,6 @@
+/*
+ * This class is used to handle userAlreadyExistException
+ */
 package com.stackroute.userservice.exception;
 
 public class UserAlreadyExistException extends  Exception {
@@ -5,6 +8,8 @@ public class UserAlreadyExistException extends  Exception {
 
     public UserAlreadyExistException() {
     }
+
+    //Handle userAlreadyExistException
     public UserAlreadyExistException(String message)
     {
         super(message);

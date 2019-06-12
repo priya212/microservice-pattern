@@ -1,3 +1,6 @@
+/*
+ * This class is used to handle userNotFoundException
+ */
 package com.stackroute.userservice.exception;
 
 public class UserNotFoundException extends  Exception {
@@ -5,7 +8,7 @@ public class UserNotFoundException extends  Exception {
 
     public UserNotFoundException() {
     }
-
+    //Handle userNotFoundException
     public UserNotFoundException(String message) {
         this.message = message;
     }

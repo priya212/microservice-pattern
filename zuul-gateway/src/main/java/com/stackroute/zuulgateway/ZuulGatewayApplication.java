@@ -1,3 +1,6 @@
+/*
+ * This class is act as a gateway to all micro-services
+ */
 package com.stackroute.zuulgateway;
 
 import com.stackroute.zuulgateway.filters.ErrorFilter;

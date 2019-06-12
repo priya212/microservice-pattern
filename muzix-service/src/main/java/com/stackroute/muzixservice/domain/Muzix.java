@@ -1,3 +1,6 @@
+/*
+ * This class act as domain entity for muzix application
+ */
 package com.stackroute.muzixservice.domain;
 
 import lombok.AllArgsConstructor;

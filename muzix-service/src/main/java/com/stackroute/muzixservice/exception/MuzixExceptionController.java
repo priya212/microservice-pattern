@@ -1,3 +1,6 @@
+/*
+ * This class used to handles global exception
+ */
 package com.stackroute.muzixservice.exception;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -13,6 +16,7 @@ public class MuzixExceptionController {
 
     @Value("S{spring.muzix.alreadyExistException}")
     private String muzixAlreadyExist;
+
     @Value("${spring.muzix.exception}")
     private  String getAllException;
 

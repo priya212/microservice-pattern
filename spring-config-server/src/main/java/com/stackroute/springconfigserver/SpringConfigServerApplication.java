@@ -1,3 +1,6 @@
+/*
+ * This class is used to fetch properties value from centralized-config-server
+ */
 package com.stackroute.springconfigserver;
 
 import org.springframework.boot.SpringApplication;

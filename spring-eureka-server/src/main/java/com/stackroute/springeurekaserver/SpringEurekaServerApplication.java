@@ -1,3 +1,6 @@
+/*
+ * This class is act as a eureka server that is used to register micro-services on server
+ */
 package com.stackroute.springeurekaserver;
 
 import org.springframework.boot.SpringApplication;

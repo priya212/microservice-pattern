@@ -1,3 +1,6 @@
+/*
+ * This class is uesd as domain entity
+ */
 package com.stackroute.userservice.domain;
 
 import lombok.AllArgsConstructor;

@@ -1,3 +1,6 @@
+/*
+ * This class act as controller for muzix-Services
+ */
 package com.stackroute.muzixservice.controller;
 
 import com.stackroute.muzixservice.domain.Muzix;

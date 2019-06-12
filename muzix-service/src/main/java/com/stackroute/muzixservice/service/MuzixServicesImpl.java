@@ -1,3 +1,6 @@
+/*
+ * This interface provide implementation for all methods present in muzixServices interface
+ */
 package com.stackroute.muzixservice.service;
 
 import com.stackroute.muzixservice.domain.Muzix;
@@ -26,7 +29,7 @@ public class MuzixServicesImpl implements com.stackroute.muzixservice.service.Mu
     }
 
 
-    @Value("spring.muzix.muzixException")
+    @Value("${spring.muzix.muzixException}")
     private String notFoundException;
 
     @Value("${spring.muzix.alreadyExistException}")

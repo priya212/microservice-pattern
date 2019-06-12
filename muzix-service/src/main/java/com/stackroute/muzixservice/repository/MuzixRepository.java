@@ -1,3 +1,6 @@
+/*
+ * This interface used as repository for muzixservices
+ */
 package com.stackroute.muzixservice.repository;
 
 import com.stackroute.muzixservice.domain.Muzix;

@@ -1,3 +1,6 @@
+/*
+ * This class provide web configuration
+ */
 package com.stackroute.userservice.config;
 
 import org.h2.server.web.WebServlet;

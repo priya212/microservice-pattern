@@ -1,3 +1,6 @@
+/*
+ * This class is used to provide seed data for application using CommandLineRunner
+ */
 package com.stackroute.muzixservice.startup;
 
 import com.stackroute.muzixservice.domain.Muzix;
